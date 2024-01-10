@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body bgcolor="#EDC0E9">
+    <div class="calculator">
+        <div class="result">
+            <div id="output"></div>
+            <div id="sign"></div>
+            <input id="input" type="text">
+
+        </div>
+        <div class="keys">
+            <div class="key_row">
+                <input id="allClear" type="button" value="CE"><input id="inputClear" type="button" value="C"><input id="clear" type="button" value="B"><input id="divd" type="button" value="/">
+            </div>
+            <div class="key_row">
+                <input class="num" type="button" value="7"><input class="num" type="button" value="8"><input class="num" type="button" value="9"><input id="sub" type="button" value="-">
+            </div>
+            <div class="key_row">
+                <input class="num" type="button" value="4"><input class="num" type="button" value="5"><input class="num" type="button" value="6"><input id="mult" type="button" value="X">
+            </div>
+            <div class="key_row">
+                <input class="num" type="button" value="1"><input class="num" type="button" value="2"><input class="num" type="button" value="3"><input id="add" type="button" value="+">
+            </div>
+            <div class="key_row">
+                <input type="button" value="D"><input class="num" type="button" value="0"><input class="num" type="button" value="."><input onclick="equal()" type="button" value="=">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+
+</html>
